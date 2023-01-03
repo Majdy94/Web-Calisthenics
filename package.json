@@ -1,7 +1,6 @@
 {
- 
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon index.js"
   },
   "name": "myproject",
   "description": "Install Project - npm install - node server.js -",
@@ -10,11 +9,17 @@
   "directories": {
     "doc": "docs"
   },
-  
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "hbs": "^4.2.0"
+  }
 }

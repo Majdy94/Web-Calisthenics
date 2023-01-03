@@ -1,0 +1,13 @@
+<div class="textBoxPayment">
+    <h1>Payment was successfully!</h1>
+    <span class="usernamePaymentPage">{{session?.username}}</span>
+</div>
+<dialog class="paymentSuccess">
+    <p>click <a href="myItems.html">HERE</a> to get your Video</p>
+</dialog>
+<script>
+    // showing the dialog after the payment was successed
+    const $dialog = document.querySelector('.paymentSuccess')
+    $dialog.showModal();
+    console.log($dialog);
+</script>
